@@ -1,0 +1,105 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+input[type="button"] {
+    border: none;
+    background: cornflowerblue;
+    color: white;
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Custom styles for the pizza page */
+.pizza-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pizza-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pizza-item {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .pizza-item:hover {
+        background: #e2e2e2;
+    }
+
+.selected-pizza {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+    .selected-pizza h3 {
+        margin-bottom: 1rem;
+    }
+
+.input-field {
+    margin-bottom: 1rem;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button {
+    border: none;
+    background: cornflowerblue;
+    color: white;
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background: royalblue;
+    }
